@@ -40,3 +40,15 @@ body {
 .transparent-text {
     color: rgb(0, 0, 0, 0.5)
 }
+
+.blue {
+    color: blue;
+}
+
+.fancy {
+    font-family: cursive;
+}
+
+#content {
+    background-color: white;
+}
