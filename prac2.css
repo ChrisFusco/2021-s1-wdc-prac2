@@ -32,6 +32,11 @@ pre {
     font-family: monospace;
 }
 
+body {
+    background-color: #DCF5F5;
+    background-image: url(cross.png);
+}
+
 .transparent-text {
     color: rgb(0, 0, 0, 0.5)
 }
