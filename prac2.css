@@ -37,8 +37,12 @@ body {
     background-image: url(cross.png);
 }
 
+hr {
+    border-color: #CFDFE4;
+}
+
 .transparent-text {
-    color: rgb(0, 0, 0, 0.5)
+    color: rgb(0, 0, 0, 0.5);
 }
 
 .blue {
@@ -49,6 +53,45 @@ body {
     font-family: cursive;
 }
 
+.red-border {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+}
+
+.blue-border {
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+}
+
+.red-border-round {
+    border-style: solid;
+    border-color: red;
+    border-bottom: unset;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-width: 1px;
+}
+
+.blue-border-round {
+    border-style: solid;
+    border-color: blue;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-width: 1px;
+}
+
+.red-outline {
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 1px;
+}
+
 #content {
     background-color: white;
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: 1px;
+    border-radius: 8px;
 }
