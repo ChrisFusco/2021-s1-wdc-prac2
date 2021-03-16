@@ -7,6 +7,10 @@ h2 {
     text-align: left;
 }
 
+h3 {
+    color: rgb(0, 0, 138, 0.8);
+}
+
 p {
     font-family: serif;
 }
@@ -26,4 +30,8 @@ mark {
 
 pre {
     font-family: monospace;
+}
+
+.transparent-text {
+    color: rgb(0, 0, 0, 0.5)
 }
