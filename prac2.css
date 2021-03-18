@@ -92,9 +92,8 @@ div.nested1 {
     background-color: yellow;
     margin: 10px 20px 10px 20px;
     padding: 12px;
-    width: 700px;
-    height: 200px;
     text-align: right;
+    box-sizing: border-box;
 }
 
 div.nested2 {
@@ -109,6 +108,8 @@ div.nested2 {
 
 div.outer1 {
     background-color: blue;
+    border-left: 700px;
+    border-right: 700px;
 }
 
 div.outer2 {
