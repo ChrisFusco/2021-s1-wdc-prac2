@@ -88,10 +88,39 @@ hr {
     outline-width: 1px;
 }
 
+div.nested1 {
+    background-color: yellow;
+    margin: 10px 20px 10px 20px;
+    padding: 12px;
+    width: 700px;
+    height: 200px;
+    text-align: right;
+}
+
+div.nested2 {
+    background-color: yellow;
+    padding: 12px;
+    width: 400px;
+    height: 400px;
+    text-align: right;
+    position: relative;
+    margin: auto;
+}
+
+div.outer1 {
+    background-color: blue;
+}
+
+div.outer2 {
+    background-color: blue;
+    margin-top: 20px;
+}
+
 #content {
     background-color: white;
     border-style: solid;
     border-color: darkgrey;
     border-width: 1px;
     border-radius: 8px;
+    padding: 10px;
 }
