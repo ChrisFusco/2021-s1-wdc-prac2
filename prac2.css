@@ -1,9 +1,9 @@
 h1 {
-    font-family: sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 h2 {
-    font-family: sans-serif;
+    font-family: "Raleway", sans-serif;
     text-align: left;
 }
 
@@ -11,8 +11,15 @@ h3 {
     color: rgb(0, 0, 138, 0.8);
 }
 
+h4 {
+    font-family: "Raleway";
+    font-style:italic;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
 p {
-    font-family: serif;
+    font-family: "Noto Serif", serif;
 }
 
 a {
@@ -39,6 +46,22 @@ body {
 
 hr {
     border-color: #CFDFE4;
+}
+
+blockquote {
+    color: dimgrey;
+    font-family: "Raleway";
+    line-height: 1.5;
+    word-spacing: 0.2em;
+    text-align: justify;
+}
+
+i {
+    color: #BFCFD4;
+}
+
+.center {
+    text-align: center;
 }
 
 .transparent-text {
